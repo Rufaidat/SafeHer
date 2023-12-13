@@ -1,0 +1,60 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 40rem;
+  height: 40%;
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+section{
+  width: 50%;
+  height: 100%;
+}
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius:  1rem 0 0 1rem ;
+}
+#text-section{
+  background-color: white;
+  border-collapse: separate; 
+  border-radius: 0 1rem 1rem 0;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+p{
+  color: hsl(228, 12%, 48%);
+}
+#perfume{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+ 
+}
+h1{
+  font-size: 2.5rem;
+  margin: 0;
+}
+#new-price{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+margin-right: .5rem;
+}
+#old-price{
+  align-self: flex-start;
+}
+#price-container{
+
+}
